@@ -1,0 +1,49 @@
+﻿<!-- form
+{
+  "Metadata": {
+    "Id": "89be8a7b-d8c6-4da1-847a-1b380c1d552e",
+    "DisplayName": "simple.html",
+    "Kind": "Html"
+  }
+}
+-->
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0 0.5em;
+                padding: 0;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+        </style>
+        <script type="text/javascript">
+
+            var uiPathApi = {
+                getValue: function (elementId) {
+                    // implement get value
+                },
+    
+                setValue: function (elementId, value) {
+                    document.getElementById(elementId).innerHTML = value;
+                },
+
+                
+                // Call this to trigger a "Form Message" event
+                // This function is set by the forms engine after the page loads,
+                // but declaring it here as empty helps with code autocompletion
+                sendMessage: function (id, value) { },
+            };
+
+            function closeMe() {
+                uiPathApi.sendMessage("closeMe");
+                //window.chrome.webview.postMessage({action: "Submit", data:"", id:-1});
+            }
+
+            setTimeout(closeMe, 3000);
+            
+    </script>
+    </head>
+    <body id="txt">
+
+    </body>
+</html>

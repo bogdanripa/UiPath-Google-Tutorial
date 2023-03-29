@@ -1,0 +1,37 @@
+﻿{
+  "Metadata": {
+    "Id": "ff243831-c9af-4c19-9b2e-15a752400524",
+    "DisplayName": "Welcome",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "Welcome",
+    "Width": 500,
+    "Height": 300,
+    "ShowInTaskbar": true,
+    "ShowMargin": true
+  },
+  "Data": {
+    "components": [
+      {
+        "tag": "h3",
+        "content": "Welcome to google.com! Today I will show you how to search for some nice cat drawings.",
+        "key": "label",
+        "input": false,
+        "tableView": false,
+        "label": "Label",
+        "type": "label"
+      },
+      {
+        "label": "Let's go!",
+        "showValidations": false,
+        "disableOnInvalid": true,
+        "tableView": false,
+        "key": "submit",
+        "type": "button",
+        "input": true,
+        "saveOnEnter": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="_04_1_click_images" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ufa="clr-namespace:UiPath.Forms.Activities;assembly=UiPath.Forms.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uuat="clr-namespace:UiPath.UIAutomationNext.Activities.Triggers;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="TriggerEventArgs" Type="InArgument(uuat:WebMouseEventArgs)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>440,613</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>_04_5_click_images_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.Forms.Activities</x:String>
+      <x:String>UiPath.Forms.Activities.Base</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Forms.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="_04_1_click_images" sap:VirtualizedContainerService.HintSize="450,548" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NNativeEventTrigger x:TypeArguments="uuat:WebMouseEventArgs" AvailableEventTypes="WebctrlTextChange,WebctrlKeyPress,WebctrlMouseClick,WebctrlMouseDoubleClick,WebctrlMouseRightClick,WebctrlMouseMove,WebctrlMousePressed,WebctrlMouseReleased,WebctrlMouseEntered,WebctrlMouseExited,WebctrlFocusGained,WebctrlFocusLost,ElementAppeared,ElementDisappeared" DisplayName="Application Event Trigger 'Images'" Enabled="True" EventType="WebctrlMouseClick" sap:VirtualizedContainerService.HintSize="388,177" sap2010:WorkflowViewState.IdRef="NNativeEventTrigger`1_1" IncludeChildren="True" SchedulingMode="OneTime" TriggerId="63a83581-91f3-4d85-90c9-14eb4cdfb240" Version="V3">
+      <uix:NNativeEventTrigger.Target>
+        <uix:TargetAnchorable BrowserURL="https://www.google.com/search?q=cats&amp;sxsrf=APwXEdfQHwgsWsCU5iSbRUlh5V-ST0GbBA%3A1680082400073&amp;source=hp&amp;ei=4AUkZNHYAoGHxc8PwOK08AQ&amp;iflsig=AOEireoAAAAAZCQT8IAiON9g-anhSFZORgW1ay4E6rA1&amp;ved=0ahUKEwjRyJfV6oD-AhWBQ_EDHUAxDU4Q4dUDCAg&amp;oq=cats&amp;gs_lcp=Cgdnd3Mtd2l6EAwyBAgjECcyCgguEIoFENQCEEMyCgguENQCEIoFEEMyBwgAEIoFEEMyBwgAEIoFEEMyBwgAEIoFEEMyBwgAEIoFEEMyCgguEIoFENQCEEMyCwguEIAEEMcBEK8BMgcIABCKBRBDUABY4gFg_pgEaABwAHgAgAGmAYgB4QSSAQMwLjSYAQCgAQE&amp;sclient=gws-wiz" DesignTimeRectangle="311, 186, 111, 55" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Images'" FullSelectorArgument="&lt;webctrl aaname='Images' parentid='hdtb-msb' tag='A' /&gt;" Guid="016b19c8-80c1-4a22-9ac5-ddda0f760b65" InformativeScreenshot="a1aec690f2445cc04244294c067f7341.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='cats - Google Search' /&gt;" SearchSteps="Selector" Version="V2" />
+      </uix:NNativeEventTrigger.Target>
+    </uix:NNativeEventTrigger>
+    <ui:DisableTrigger DisplayName="Disable Local Trigger" sap:VirtualizedContainerService.HintSize="388,91" sap2010:WorkflowViewState.IdRef="DisableTrigger_1" TriggerId="f8d4c420-f2dc-4cb7-a99c-052c38bcc223;25e0154b-9b5b-4be7-a9f5-1b2d8d5a9ab7;58ab8b55-9a2e-41d8-a310-cf0bf0a55b86" />
+    <ufa:CloseFormActivity DisplayName="Close Form" FormId="8b8323d3-1385-42a6-8170-92d7b47d402c" sap:VirtualizedContainerService.HintSize="388,89" sap2010:WorkflowViewState.IdRef="CloseFormActivity_1">
+      <ufa:CloseFormActivity.InstanceName>
+        <InArgument x:TypeArguments="x:String" />
+      </ufa:CloseFormActivity.InstanceName>
+    </ufa:CloseFormActivity>
+  </Sequence>
+</Activity>

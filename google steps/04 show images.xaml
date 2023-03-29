@@ -1,0 +1,150 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="click_images" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uca="clr-namespace:UiPath.Callout.Activities;assembly=UiPath.Callout.Activities" xmlns:ufa="clr-namespace:UiPath.Forms.Activities;assembly=UiPath.Forms.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uuat="clr-namespace:UiPath.UIAutomationNext.Activities.Triggers;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="TriggerEventArgs" Type="InArgument(uuat:EmptyArgs)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1120,974</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>_05_click_images_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Studio.Forms.Runtime</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Callout.Activities</x:String>
+      <x:String>UiPath.Platform.GlobalVariables</x:String>
+      <x:String>UiPath.Callout.Activities.Base</x:String>
+      <x:String>UiPath.Forms.Activities</x:String>
+      <x:String>UiPath.Forms.Activities.Base</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="72">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Forms.Runtime</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Callout.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Forms.Activities</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Show Images" sap:VirtualizedContainerService.HintSize="450,909" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NNativeEventTrigger x:TypeArguments="uuat:EmptyArgs" AvailableEventTypes="WebctrlTextChange,WebctrlKeyPress,WebctrlMouseClick,WebctrlMouseDoubleClick,WebctrlMouseRightClick,WebctrlMouseMove,WebctrlMousePressed,WebctrlMouseReleased,WebctrlMouseEntered,WebctrlMouseExited,WebctrlFocusGained,WebctrlFocusLost,ElementAppeared,ElementDisappeared" DisplayName="Application Event Trigger 'Images'" Enabled="True" EventType="ElementAppeared" sap:VirtualizedContainerService.HintSize="388,177" sap2010:WorkflowViewState.IdRef="NNativeEventTrigger`1_4" SchedulingMode="OneTime" TriggerId="58ab8b55-9a2e-41d8-a310-cf0bf0a55b86" Version="V3">
+      <uix:NNativeEventTrigger.Target>
+        <uix:TargetAnchorable BrowserURL="https://www.google.com/search?q=cats&amp;sxsrf=AJOqlzUABR8-wIEtwWW9HqLhm-ialg8j9A%3A1678793526543&amp;source=hp&amp;ei=NlsQZNH3Ho2akgXel5TwDg&amp;iflsig=AK50M_UAAAAAZBBpRuR0qNDtwvp7mzSRy_rnMXFvg2Tk&amp;ved=0ahUKEwjR6rGeqdv9AhUNjaQKHd4LBe4Q4dUDCAg&amp;uact=5&amp;oq=cats&amp;gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyCAguEIAEENQCMgsILhCABBDHARCvATIICC4Q1AIQgAQyBQguEIAEMgsILhCABBDHARCvATIFCAAQgAQyBQgAEIAEMgUILhCABDILCC4QgAQQxwEQrwE6BwgjEOoCECc6CwguEIAEEMcBENEDUOgFWJYIYIcLaAFwAHgAgAFgiAHdApIBATSYAQCgAQGwAQo&amp;sclient=gws-wiz" DesignTimeRectangle="358, 185, 111, 56" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Images'" FullSelectorArgument="&lt;webctrl aaname='Images' tag='A' /&gt;" Guid="f03fe967-94dc-4309-9bea-d7a4f9c4a9dc" ImageBase64="" InformativeScreenshot="73d70325c72dad35a17c62db1de7218e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='cats - Google Search' /&gt;" SearchSteps="Selector" Version="V2" />
+      </uix:NNativeEventTrigger.Target>
+    </uix:NNativeEventTrigger>
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="04 show images" />
+    <ui:DisableTrigger DisplayName="Disable Local Trigger" sap:VirtualizedContainerService.HintSize="388,91" sap2010:WorkflowViewState.IdRef="DisableTrigger_1" TriggerId="f8d4c420-f2dc-4cb7-a99c-052c38bcc223;25e0154b-9b5b-4be7-a9f5-1b2d8d5a9ab7" />
+    <ufa:CloseFormActivity DisplayName="Close Form" FormId="8b8323d3-1385-42a6-8170-92d7b47d402c" sap:VirtualizedContainerService.HintSize="388,89" sap2010:WorkflowViewState.IdRef="CloseFormActivity_3">
+      <ufa:CloseFormActivity.InstanceName>
+        <InArgument x:TypeArguments="x:String" />
+      </ufa:CloseFormActivity.InstanceName>
+    </ufa:CloseFormActivity>
+    <uca:ShowCalloutActivity Left="{x:Null}" ShowInTaskbar="{x:Null}" Target="{x:Null}" Top="{x:Null}" TopMost="{x:Null}" WindowState="{x:Null}" DisplayName="Show Callout" FormId="8b8323d3-1385-42a6-8170-92d7b47d402c" sap:VirtualizedContainerService.HintSize="388,191" sap2010:WorkflowViewState.IdRef="ShowCalloutActivity_2" IsAsync="True" UiElement="[TriggerEventArgs.TargetElement]">
+      <uca:ShowCalloutActivity.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="txt">Click Images to only show images of cats</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="step">["Step 3 of " + nSteps.ToString()]</InArgument>
+      </uca:ShowCalloutActivity.Arguments>
+      <uca:ShowCalloutActivity.ContinueOnError>
+        <InArgument x:TypeArguments="x:Boolean" />
+      </uca:ShowCalloutActivity.ContinueOnError>
+      <uca:ShowCalloutActivity.Height>
+        <InArgument x:TypeArguments="s:Nullable(x:Int32)" />
+      </uca:ShowCalloutActivity.Height>
+      <uca:ShowCalloutActivity.InstanceName>
+        <InArgument x:TypeArguments="x:String" />
+      </uca:ShowCalloutActivity.InstanceName>
+      <uca:ShowCalloutActivity.ShowMargin>
+        <InArgument x:TypeArguments="s:Nullable(x:Boolean)">
+          <Literal x:TypeArguments="s:Nullable(x:Boolean)" Value="False" />
+        </InArgument>
+      </uca:ShowCalloutActivity.ShowMargin>
+      <uca:ShowCalloutActivity.Title>
+        <InArgument x:TypeArguments="x:String" />
+      </uca:ShowCalloutActivity.Title>
+      <uca:ShowCalloutActivity.Width>
+        <InArgument x:TypeArguments="s:Nullable(x:Int32)" />
+      </uca:ShowCalloutActivity.Width>
+    </uca:ShowCalloutActivity>
+  </Sequence>
+</Activity>

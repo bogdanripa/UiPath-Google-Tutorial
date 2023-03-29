@@ -1,0 +1,36 @@
+﻿{
+  "Metadata": {
+    "Id": "3bde87ff-39fb-44b2-b782-39186d0fdba7",
+    "DisplayName": "close google tour",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "close google tour",
+    "Width": 800,
+    "Height": 600,
+    "ShowInTaskbar": true,
+    "ShowMargin": true
+  },
+  "Data": {
+    "components": [
+      {
+        "content": "And we're done! I hope you enjoyed this tour.",
+        "key": "label",
+        "input": false,
+        "tableView": false,
+        "label": "Label",
+        "type": "label"
+      },
+      {
+        "label": "Close",
+        "showValidations": false,
+        "disableOnInvalid": true,
+        "tableView": false,
+        "key": "submit",
+        "type": "button",
+        "saveOnEnter": false,
+        "input": true
+      }
+    ]
+  }
+}

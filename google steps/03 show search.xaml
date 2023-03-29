@@ -1,0 +1,140 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="click_search" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1120,571" sap2010:WorkflowViewState.IdRef="_04_click_search_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uca="clr-namespace:UiPath.Callout.Activities;assembly=UiPath.Callout.Activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Studio.Forms.Runtime</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Callout.Activities</x:String>
+      <x:String>UiPath.Platform.GlobalVariables</x:String>
+      <x:String>UiPath.Callout.Activities.Base</x:String>
+      <x:String>UiPath.Forms.Activities</x:String>
+      <x:String>UiPath.Forms.Activities.Base</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="72">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Forms.Runtime</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Callout.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Forms.Activities</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Show Search" sap:VirtualizedContainerService.HintSize="450,502" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="03 show search" />
+    <uca:ShowCalloutActivity Left="{x:Null}" ShowInTaskbar="{x:Null}" Top="{x:Null}" TopMost="{x:Null}" UiElement="{x:Null}" WindowState="{x:Null}" DisplayName="Show Callout" FormId="8b8323d3-1385-42a6-8170-92d7b47d402c" sap:VirtualizedContainerService.HintSize="388,261" sap2010:WorkflowViewState.IdRef="ShowCalloutActivity_1" IsAsync="True">
+      <uca:ShowCalloutActivity.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="txt">Now click the Search button</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="step">["Step 2 of " + nSteps.ToString()]</InArgument>
+      </uca:ShowCalloutActivity.Arguments>
+      <uca:ShowCalloutActivity.ContinueOnError>
+        <InArgument x:TypeArguments="x:Boolean" />
+      </uca:ShowCalloutActivity.ContinueOnError>
+      <uca:ShowCalloutActivity.Height>
+        <InArgument x:TypeArguments="s:Nullable(x:Int32)" />
+      </uca:ShowCalloutActivity.Height>
+      <uca:ShowCalloutActivity.InstanceName>
+        <InArgument x:TypeArguments="x:String" />
+      </uca:ShowCalloutActivity.InstanceName>
+      <uca:ShowCalloutActivity.ShowMargin>
+        <InArgument x:TypeArguments="s:Nullable(x:Boolean)">
+          <Literal x:TypeArguments="s:Nullable(x:Boolean)" Value="False" />
+        </InArgument>
+      </uca:ShowCalloutActivity.ShowMargin>
+      <uca:ShowCalloutActivity.Target>
+        <uix:TargetAnchorable BrowserURL="https://www.google.com/" DesignTimeRectangle="1112, 1082, 159, 45" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Google Search'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" FuzzyAccuracy="0.67" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' aaname='Google Search' check:text='Google Search' /&gt;" Guid="30d9d9aa-668d-4515-af67-2e1a19636fae" ImageBase64="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" InformativeScreenshot="60702e99efed6882acc4f3f79c7d6798.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+          <uix:TargetAnchorable.Anchors>
+            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+              <uix:Target DesignTimeRectangle="983, 556, 493, 43" ElementType="InputBox" FriendlyName="'cats'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='Search' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAfEAAAAvCAYAAADzcfOWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPxSURBVHhe7dyxa+NWAMfx/i3+JzSaLCZDb4q3iA6GDoIM3mw61EMxhnJ0CF4OcxBM4TCBAxkOdHCg4UBLcYbiTs5QnCHgIeAh4OHg1yfpyXKcRMkdbcmD7wcMsfT87O2bJz/5OwEAACcRcQAAHEXEAQBwFBEHAMBRRBwAAEcRcQAAHEXEAQBwFBEHAMBRRBwAAEcRcQAAHEXEAQBw1IuNeK1Ws38BAICHEHEAABxFxAEAcNT/EPG1FtOx4mv79JmIOAAA1f7ziK+mgQlyoJCIAwDwryLiAAA4iogDAOCo+xFfLxSddtU8qGUhrR91Nfy40MaeLqySsXonvhpePq7mNeR3hooui5ErhSf23PYx1MyeNRNo/HNr+3rv0Ff3NNLiNj+dHgMAAI+7G/GrUO00qp4J6lmkJIk07jRNUD35Z3M7SJqf+fJMZJudkcI4MeNihW+68rPX9hTfpKM2Wv2ZKPrNN6/39fpDOm6hdXrqOsrexzvuavzRvv40UD0NfWuipRlCxAEAqLYT8bWiTroqDhRe2UOZjZKBZ453FaVx/jLT6LghrxPlQd6xiXtZfNsfVvbIw5fTl+/tsTvvY46/a5mVf1uTSyIOAMBTyoivzOrYhNM73V7wLl0MVT80q+nP+xfV91yHCswcwfQ5EX+l/qdy3D4iDgBAtTLiJtRpOHcD/JTNeql5kiiejjUadOUfpiv2pyNeXE5Px9YOmuoOJoouFlp/secNIg4AQLVvivjmMlT/OA92/qiredLT6G1f/t4cj+5Ov5kr3NlAV8wTvJlll+nT5wAA4HFfH/GbWL1sA1tb44ul1nY3eebvyfMjvmNzNTer+aHadiXfOl8ScQAAnlBG3H6f/eB34lfm3EFT7fOF1p/yzWvB+3QP+V2bz/17/wjcj/hK8S++GkcjlfvdLfsZauYzEHEAAKqVES92p5sV9kO7xtONaKO/ylD7vy/sWet2rlErvyzuvysDv434zpzL83y+13/sbZS7HGcr+Vdv59k8AADgcTsRN4r7xA8CDadxfp/4T/aecLM6zpK7mWn4fRrrpr2XPFF03jcr9Zrqne52JV0oot/8NSzvE781cxyl/zAU96Onm+OG2RzFfeZEHACAancjnlovFA6C6l9su5lp1GnmP85S89T4sadxkl5CX2rygzlmf7Alt1Q8aNmxbUXFlfa998l2qae/2GZvPifiAABUux/xF4KIAwBQjYgDAOAoIg4AgKOIOAAAjnqxEQcAANWIOAAAjiLiAAA4iogDAOAoIg4AgKOIOAAAjiLiAAA4iogDAOAoIg4AgKOIOAAAjiLiAAA4iogDAOAoIg4AgKOIOAAATpL+AQly9lVIq1qjAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector" />
+            </scg:List>
+          </uix:TargetAnchorable.Anchors>
+        </uix:TargetAnchorable>
+      </uca:ShowCalloutActivity.Target>
+      <uca:ShowCalloutActivity.Title>
+        <InArgument x:TypeArguments="x:String" />
+      </uca:ShowCalloutActivity.Title>
+      <uca:ShowCalloutActivity.Width>
+        <InArgument x:TypeArguments="s:Nullable(x:Int32)" />
+      </uca:ShowCalloutActivity.Width>
+    </uca:ShowCalloutActivity>
+  </Sequence>
+</Activity>

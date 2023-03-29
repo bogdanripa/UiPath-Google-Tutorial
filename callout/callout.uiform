@@ -1,0 +1,34 @@
+﻿{
+  "Metadata": {
+    "Id": "8b8323d3-1385-42a6-8170-92d7b47d402c",
+    "DisplayName": "callout",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "callout",
+    "Width": 230,
+    "Height": 120,
+    "ShowInTaskbar": false,
+    "ShowMargin": false
+  },
+  "Data": {
+    "components": [
+      {
+        "content": "Step 1 of N",
+        "key": "step",
+        "input": false,
+        "tableView": false,
+        "label": "Label",
+        "type": "label"
+      },
+      {
+        "content": "Loading...",
+        "key": "txt",
+        "input": false,
+        "tableView": false,
+        "label": "Label",
+        "type": "label"
+      }
+    ]
+  }
+}
