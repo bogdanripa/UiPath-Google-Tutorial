@@ -99,7 +99,7 @@
         <uix:TargetAnchorable BrowserURL="https://www.google.com/search?q=cats&amp;sxsrf=AJOqlzWXgVFByGt1SWcSu3tkZL_3ndWK_w:1678795380025&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwinpZuSsNv9AhVTnVwKHar1BDsQ_AUoAXoECAEQAw&amp;biw=2048&amp;bih=1063&amp;dpr=1.25" DesignTimeRectangle="183, 265, 161, 60" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'drawing'" FullSelectorArgument="&lt;webctrl aria-label='drawing' tag='A' /&gt;" Guid="fc072cf9-4d71-4306-b403-9bfe701d6e4a" InformativeScreenshot="da462c73aac8e73452a35e9154f38df5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='cats - Google Search' /&gt;" SearchSteps="Selector" Version="V2" />
       </uix:NNativeEventTrigger.Target>
     </uix:NNativeEventTrigger>
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="06 click drawings" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="05.1 click drawings" />
     <ui:StopTriggers DisplayName="Stop Local Triggers" sap:VirtualizedContainerService.HintSize="388,95" sap2010:WorkflowViewState.IdRef="StopTriggers_1" ShouldStop="[StopTriggersOutArgument]" />
   </Sequence>
 </Activity>

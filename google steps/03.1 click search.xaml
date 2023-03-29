@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1120,613</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>440,743</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>_03_1_click_search_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -82,7 +82,7 @@
       <AssemblyReference>UiPath.Forms.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Click Search" sap:VirtualizedContainerService.HintSize="450,548" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Click Search" sap:VirtualizedContainerService.HintSize="450,678" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -93,6 +93,7 @@
         <uix:TargetAnchorable BrowserURL="https://www.google.com/" DesignTimeRectangle="776, 973, 159, 45" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Google Search'" FullSelectorArgument="&lt;webctrl idx='*' tag='INPUT' type='submit' /&gt;" Guid="efcd669d-4baa-48b7-912b-dcf300d8ee2e" ImageBase64="" InformativeScreenshot="3743ab0e497d96c8e1af1409721809f8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google' /&gt;" SearchSteps="Selector" Version="V2" />
       </uix:NNativeEventTrigger.Target>
     </uix:NNativeEventTrigger>
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="03.1 click search" />
     <ui:DisableTrigger DisplayName="Disable Local Trigger" sap:VirtualizedContainerService.HintSize="388,91" sap2010:WorkflowViewState.IdRef="DisableTrigger_2" TriggerId="f8d4c420-f2dc-4cb7-a99c-052c38bcc223" />
     <ufa:CloseFormActivity DisplayName="Close Form" FormId="8b8323d3-1385-42a6-8170-92d7b47d402c" sap:VirtualizedContainerService.HintSize="388,89" sap2010:WorkflowViewState.IdRef="CloseFormActivity_1">
       <ufa:CloseFormActivity.InstanceName>
